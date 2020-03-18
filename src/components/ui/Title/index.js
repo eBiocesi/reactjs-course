@@ -4,8 +4,7 @@ import { StyledContainer } from './style';
 const Title = props => {
   return (
     <StyledContainer>
-      <h1 success>First</h1>
-      <h1>second</h1>
+      <h1>{props.title}</h1>
     </StyledContainer>
   );
 };
